@@ -8,7 +8,7 @@ docker run -d -p 80:80 docker/<cointainer_name> ;
 #    docker/getting-started - the image to use
 
 #2. Build container
-docker build -t getting-started . ;
+docker build -t <cointainer_name> . ;
 
 
 #3. Removing a container using the CLI
