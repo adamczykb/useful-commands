@@ -1,7 +1,7 @@
 
 #1.Start cointainer
 
-docker run -d -p 80:80 docker/<cointainer_name> ;
+docker run -d -p <host-port>:<container-port> <cointainer_name> ;
 
 #    -d - run the container in detached mode (in the background)
 #    -p 80:80 - map port 80 of the host to port 80 in the container
