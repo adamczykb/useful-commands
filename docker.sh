@@ -24,3 +24,7 @@ docker stop <the-container-id>;
 #Once the container has stopped, you can remove it by using the docker rm command.
 
 docker rm <the-container-id>;
+
+#build containers form docker-compose.yml
+
+docker-compose up -d --build
