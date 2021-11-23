@@ -28,3 +28,6 @@ docker rm <the-container-id>;
 #build containers form docker-compose.yml
 
 docker-compose up -d --build
+
+#clean docker
+docker system prune -af
